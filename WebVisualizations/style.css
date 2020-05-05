@@ -141,3 +141,19 @@ h2 {
     background-color: #f3f3f3;
 }
 
+#main_figure {
+    width: 100%;
+    height:auto;
+}
+
+.sub_figure_comp {
+    height: 300px;
+    width: 450px;
+}
+
+@media (max-width: 480px) {
+    .sub_figure_comp {
+        width: 100%;
+        height:auto;
+    }    
+}
