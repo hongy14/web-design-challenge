@@ -18,6 +18,7 @@
     margin-right: 5%;
 }
 
+
 #summary_header {
     font-family: Cambria, Georgia, Cochin, Times, 'Times New Roman', serif;
     padding: 30px;
@@ -27,6 +28,7 @@
     border-radius: 10px;
     margin-top: 50px;
 }
+
 
 #visualization_header {
     font-family: Cambria, Georgia, Cochin, Times, 'Times New Roman', serif;
@@ -50,6 +52,8 @@
 
 h1 {
     font-size: 28px;
+    font-family: Cambria, Georgia, Cochin, Times, 'Times New Roman', serif;
+    color: lightseagreen;
     font-weight: bold;
 }
 
@@ -89,3 +93,51 @@ p {
     margin-left: 8%;
     display: inline-flex;
 }
+
+.col-lg-8 {
+    background-color: whitesmoke;
+    border-radius: 2px;
+    margin-top: 30px;
+
+    height: fit-content;
+    width: auto;
+} 
+
+h2 {
+    font-family: Cambria, Georgia, Cochin, Times, 'Times New Roman', serif;
+    color: lightseagreen;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+.dataframe {
+    border-collapse: collapse;
+    background-color: white;
+    float: left;
+    margin: 25px 0;
+    margin-left: 10px;
+    font-size: 0.9em;
+}
+
+.dataframe thead tr {
+    background-color: #dddddd;
+    font-family: sans-serif;
+    text-align: left;
+    font-weight: bold;
+}
+
+.dataframe th,
+.dataframe td {
+    text-align: left;
+    padding: 8px 10px;
+    font-family: sans-serif;
+}
+
+.dataframe tbody tr {
+    border-bottom: 1px solid #dddddd;    
+}
+
+.dataframe tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
