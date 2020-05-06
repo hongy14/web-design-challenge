@@ -67,6 +67,10 @@ p {
     margin-top: 4%;
 }
 
+.imageNav-photo.active {
+    border: 2px lightseagreen;
+}
+
 .sub_figure {
     position: relative;
 }
@@ -151,7 +155,7 @@ h2 {
     width: 450px;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 700px) {
     .sub_figure_comp {
         width: 100%;
         height:auto;
