@@ -67,12 +67,12 @@ p {
     margin-top: 4%;
 }
 
-.imageNav-photo:hover{
-    opacity: 0.6;
+.imageNav-photo:active {
+    border: 2px solid lightseagreen;
 }
 
-.imageNav-photo:active {
-    border: 2px lightseagreen;
+.imageNav-photo:hover{
+    opacity: 0.6;
 }
 
 #maxtemp_figure {
