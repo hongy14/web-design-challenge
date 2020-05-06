@@ -67,12 +67,12 @@ p {
     margin-top: 4%;
 }
 
-.imageNav-photo.active {
-    border: 2px lightseagreen;
+.imageNav-photo.hover{
+    opacity: 0.6;
 }
 
-.sub_figure {
-    position: relative;
+.imageNav-photo.active {
+    border: 2px lightseagreen;
 }
 
 #maxtemp_figure {
